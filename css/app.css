@@ -1,0 +1,26 @@
+/*
+.question,
+.Condition-text,
+.Solution-text {
+  font-size: 1.5em;
+}
+
+#gallery {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#gallery li {
+    max-width: 300px;
+    padding: 5px;
+}
+
+#gallery li img {
+    max-width: 100%;
+    height: auto;
+}
+*/
+
+.container:nth-of-type(n + 2) {
+  display: none;
+}
