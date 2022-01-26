@@ -47,7 +47,7 @@ $(".btn-next").on("click", function() { //次へボタン
   $('input[type="radio"]').prop("checked", false);
   $('input[type="radio"]').prop("disabled", false);
   index++;
-  if (index < 3) { //１５問目まで
+  if (index < 15) { //１５問目まで
     document.getElementById("img-peer").src = img_peer[index];
     //document.getElementById("text_q").innerHTML = (index + 1) + "問目の画像：" + img_peer[index];
 
